@@ -28,7 +28,7 @@ namespace Assi2
         }
 
         // Return the title
-        protected override string GetPrintableTitle()
+        public override string GetPrintableTitle()
         {
             if (_isDownloaded)
             {
@@ -38,7 +38,7 @@ namespace Assi2
         }
 
         // Return the body
-        protected override string GetPrintableBody()
+        public override string GetPrintableBody()
         {
             if (_isDownloaded)
             {
