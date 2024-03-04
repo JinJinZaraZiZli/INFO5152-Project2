@@ -23,9 +23,9 @@ namespace Assi2
         }
 
         // Return the title.
-        protected override string GetPrintableTitle() => $"Title: {Title}";
+        public override string GetPrintableTitle() => $"Title: {Title}";
 
         // Return the body.
-        protected override string GetPrintableBody() => $"Body: {Body}";
+        public override string GetPrintableBody() => $"Body: {Body}";
     }
 }
