@@ -20,6 +20,11 @@ namespace Assi2
             }
         }
 
+        public Post GetPost()
+        {
+            return _post;
+        }
+
         // Simulates post download by creating a FancyPost object.
         public void Download(string title, string body)
         {
@@ -28,7 +33,7 @@ namespace Assi2
         }
 
         // Return the title
-        protected override string GetPrintableTitle()
+        public override string GetPrintableTitle()
         {
             if (_isDownloaded)
             {
@@ -38,13 +43,18 @@ namespace Assi2
         }
 
         // Return the body
-        protected override string GetPrintableBody()
+        public override string GetPrintableBody()
         {
             if (_isDownloaded)
             {
                 return _post.GetPrintableBody();
             }
             return "Please wait, content is downloading.";
+        }
+
+        internal bool IsDownloaded()
+        {
+            return _isDownloaded;
         }
     }
 }

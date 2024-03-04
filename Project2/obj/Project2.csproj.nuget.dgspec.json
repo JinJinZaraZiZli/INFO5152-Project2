@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dadbo\\Desktop\\CPA\\cpa5\\INFO5125-Design Pattern\\Project2\\Project2\\Project2\\Project2.csproj": {}
+    "C:\\Users\\Duncan\\Source\\Repos\\INFO5152-Project2\\Project2\\Project2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dadbo\\Desktop\\CPA\\cpa5\\INFO5125-Design Pattern\\Project2\\Project2\\Project2\\Project2.csproj": {
+    "C:\\Users\\Duncan\\Source\\Repos\\INFO5152-Project2\\Project2\\Project2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dadbo\\Desktop\\CPA\\cpa5\\INFO5125-Design Pattern\\Project2\\Project2\\Project2\\Project2.csproj",
+        "projectUniqueName": "C:\\Users\\Duncan\\Source\\Repos\\INFO5152-Project2\\Project2\\Project2.csproj",
         "projectName": "Project2",
-        "projectPath": "C:\\Users\\dadbo\\Desktop\\CPA\\cpa5\\INFO5125-Design Pattern\\Project2\\Project2\\Project2\\Project2.csproj",
-        "packagesPath": "C:\\Users\\dadbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dadbo\\Desktop\\CPA\\cpa5\\INFO5125-Design Pattern\\Project2\\Project2\\Project2\\obj\\",
+        "projectPath": "C:\\Users\\Duncan\\Source\\Repos\\INFO5152-Project2\\Project2\\Project2.csproj",
+        "packagesPath": "C:\\Users\\Duncan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Duncan\\Source\\Repos\\INFO5152-Project2\\Project2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dadbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Duncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

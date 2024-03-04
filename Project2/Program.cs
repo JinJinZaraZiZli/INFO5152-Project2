@@ -19,7 +19,7 @@ namespace Assi2
             Posts.Add(p3);
 
             Console.WriteLine("Welcome to the Social Network!\nEnter a command to get started, or 'help' to see a list of commands:");
-            string command = "";
+            string command = Console.ReadLine() ?? "";
 
             while(command != "quit") {
                 string[] commandArgs = command.Split(":");
@@ -72,7 +72,7 @@ namespace Assi2
                         // Set title of a post
                         if (commandArgs.Length > 2 && postNum >= 0 && postNum < Posts.Count)
                         {
-                            Posts[postNum].SetTitle(commandArgs[2]);
+                            Posts[postNum].GetPost().Title = commandArgs[2];
                             Console.WriteLine($"Post {postNum + 1} title updated.");
                         }
                         break;
@@ -80,7 +80,7 @@ namespace Assi2
                         // Set body of a post
                         if (commandArgs.Length > 2 && postNum >= 0 && postNum < Posts.Count)
                         {
-                            Posts[postNum].SetBody(commandArgs[2]);
+                            Posts[postNum].GetPost().Body = commandArgs[2];
                             Console.WriteLine($"Post {postNum + 1} body updated.");
                         }
                         break;
@@ -98,8 +98,9 @@ namespace Assi2
                         }
                         break;
                 }
+
+                command = Console.ReadLine() ?? "";
             }
         }
     }
-}
 }
