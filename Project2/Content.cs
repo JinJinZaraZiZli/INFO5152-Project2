@@ -13,7 +13,7 @@ namespace Assi2
             Console.WriteLine(GetPrintableBody());
         }
 
-        protected abstract string GetPrintableTitle();
-        protected abstract string GetPrintableBody();
+        public abstract string GetPrintableTitle();
+        public abstract string GetPrintableBody();
     }
 }
